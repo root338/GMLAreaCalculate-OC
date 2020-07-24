@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188AB93824CAD18B001BC922 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AB93724CAD18B001BC922 /* AppDelegate.m */; };
+		188AB93B24CAD18B001BC922 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AB93A24CAD18B001BC922 /* SceneDelegate.m */; };
+		188AB93E24CAD18B001BC922 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AB93D24CAD18B001BC922 /* ViewController.m */; };
+		188AB94124CAD18B001BC922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188AB93F24CAD18B001BC922 /* Main.storyboard */; };
+		188AB94324CAD191001BC922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188AB94224CAD191001BC922 /* Assets.xcassets */; };
+		188AB94624CAD191001BC922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188AB94424CAD191001BC922 /* LaunchScreen.storyboard */; };
+		188AB94924CAD191001BC922 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AB94824CAD191001BC922 /* main.m */; };
+		188AB95324CAD192001BC922 /* GMLAreaCalculate_OCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AB95224CAD192001BC922 /* GMLAreaCalculate_OCDemoTests.m */; };
+		188AB95E24CAD192001BC922 /* GMLAreaCalculate_OCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AB95D24CAD192001BC922 /* GMLAreaCalculate_OCDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188AB94F24CAD191001BC922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188AB92B24CAD18B001BC922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188AB93224CAD18B001BC922;
+			remoteInfo = "GMLAreaCalculate-OCDemo";
+		};
+		188AB95A24CAD192001BC922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188AB92B24CAD18B001BC922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188AB93224CAD18B001BC922;
+			remoteInfo = "GMLAreaCalculate-OCDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		188AB93324CAD18B001BC922 /* GMLAreaCalculate-OCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GMLAreaCalculate-OCDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AB93624CAD18B001BC922 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		188AB93724CAD18B001BC922 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		188AB93924CAD18B001BC922 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		188AB93A24CAD18B001BC922 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		188AB93C24CAD18B001BC922 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		188AB93D24CAD18B001BC922 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		188AB94024CAD18B001BC922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188AB94224CAD191001BC922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188AB94524CAD191001BC922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188AB94724CAD191001BC922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188AB94824CAD191001BC922 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188AB94E24CAD191001BC922 /* GMLAreaCalculate-OCDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GMLAreaCalculate-OCDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AB95224CAD192001BC922 /* GMLAreaCalculate_OCDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMLAreaCalculate_OCDemoTests.m; sourceTree = "<group>"; };
+		188AB95424CAD192001BC922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188AB95924CAD192001BC922 /* GMLAreaCalculate-OCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GMLAreaCalculate-OCDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188AB95D24CAD192001BC922 /* GMLAreaCalculate_OCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMLAreaCalculate_OCDemoUITests.m; sourceTree = "<group>"; };
+		188AB95F24CAD192001BC922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188AB96C24CAD1B1001BC922 /* GMLRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLRect.h; sourceTree = "<group>"; };
+		188AB96D24CAD1B1001BC922 /* GMLAffineTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLAffineTransform.h; sourceTree = "<group>"; };
+		188AB96E24CAD1B1001BC922 /* GMLPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLPoint.h; sourceTree = "<group>"; };
+		188AB96F24CAD1B1001BC922 /* GMLSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLSize.h; sourceTree = "<group>"; };
+		188AB97024CAD1B1001BC922 /* GMLFloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLFloat.h; sourceTree = "<group>"; };
+		188AB97124CAD1B1001BC922 /* GMLGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLGeometry.h; sourceTree = "<group>"; };
+		188AB97224CAD1B1001BC922 /* GMLEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLEdgeInsets.h; sourceTree = "<group>"; };
+		188AB97324CAD1B1001BC922 /* GMLAreaCalculateDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMLAreaCalculateDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188AB93024CAD18B001BC922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188AB94B24CAD191001BC922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188AB95624CAD192001BC922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188AB92A24CAD18B001BC922 = {
+			isa = PBXGroup;
+			children = (
+				188AB96B24CAD1B1001BC922 /* GMLAreaCalculate */,
+				188AB93524CAD18B001BC922 /* GMLAreaCalculate-OCDemo */,
+				188AB95124CAD192001BC922 /* GMLAreaCalculate-OCDemoTests */,
+				188AB95C24CAD192001BC922 /* GMLAreaCalculate-OCDemoUITests */,
+				188AB93424CAD18B001BC922 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188AB93424CAD18B001BC922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188AB93324CAD18B001BC922 /* GMLAreaCalculate-OCDemo.app */,
+				188AB94E24CAD191001BC922 /* GMLAreaCalculate-OCDemoTests.xctest */,
+				188AB95924CAD192001BC922 /* GMLAreaCalculate-OCDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188AB93524CAD18B001BC922 /* GMLAreaCalculate-OCDemo */ = {
+			isa = PBXGroup;
+			children = (
+				188AB93624CAD18B001BC922 /* AppDelegate.h */,
+				188AB93724CAD18B001BC922 /* AppDelegate.m */,
+				188AB93924CAD18B001BC922 /* SceneDelegate.h */,
+				188AB93A24CAD18B001BC922 /* SceneDelegate.m */,
+				188AB93C24CAD18B001BC922 /* ViewController.h */,
+				188AB93D24CAD18B001BC922 /* ViewController.m */,
+				188AB93F24CAD18B001BC922 /* Main.storyboard */,
+				188AB94224CAD191001BC922 /* Assets.xcassets */,
+				188AB94424CAD191001BC922 /* LaunchScreen.storyboard */,
+				188AB94724CAD191001BC922 /* Info.plist */,
+				188AB94824CAD191001BC922 /* main.m */,
+			);
+			path = "GMLAreaCalculate-OCDemo";
+			sourceTree = "<group>";
+		};
+		188AB95124CAD192001BC922 /* GMLAreaCalculate-OCDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				188AB95224CAD192001BC922 /* GMLAreaCalculate_OCDemoTests.m */,
+				188AB95424CAD192001BC922 /* Info.plist */,
+			);
+			path = "GMLAreaCalculate-OCDemoTests";
+			sourceTree = "<group>";
+		};
+		188AB95C24CAD192001BC922 /* GMLAreaCalculate-OCDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				188AB95D24CAD192001BC922 /* GMLAreaCalculate_OCDemoUITests.m */,
+				188AB95F24CAD192001BC922 /* Info.plist */,
+			);
+			path = "GMLAreaCalculate-OCDemoUITests";
+			sourceTree = "<group>";
+		};
+		188AB96B24CAD1B1001BC922 /* GMLAreaCalculate */ = {
+			isa = PBXGroup;
+			children = (
+				188AB96C24CAD1B1001BC922 /* GMLRect.h */,
+				188AB96D24CAD1B1001BC922 /* GMLAffineTransform.h */,
+				188AB96E24CAD1B1001BC922 /* GMLPoint.h */,
+				188AB96F24CAD1B1001BC922 /* GMLSize.h */,
+				188AB97024CAD1B1001BC922 /* GMLFloat.h */,
+				188AB97124CAD1B1001BC922 /* GMLGeometry.h */,
+				188AB97224CAD1B1001BC922 /* GMLEdgeInsets.h */,
+				188AB97324CAD1B1001BC922 /* GMLAreaCalculateDefine.h */,
+			);
+			name = GMLAreaCalculate;
+			path = ../GMLAreaCalculate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188AB93224CAD18B001BC922 /* GMLAreaCalculate-OCDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188AB96224CAD192001BC922 /* Build configuration list for PBXNativeTarget "GMLAreaCalculate-OCDemo" */;
+			buildPhases = (
+				188AB92F24CAD18B001BC922 /* Sources */,
+				188AB93024CAD18B001BC922 /* Frameworks */,
+				188AB93124CAD18B001BC922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GMLAreaCalculate-OCDemo";
+			productName = "GMLAreaCalculate-OCDemo";
+			productReference = 188AB93324CAD18B001BC922 /* GMLAreaCalculate-OCDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		188AB94D24CAD191001BC922 /* GMLAreaCalculate-OCDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188AB96524CAD192001BC922 /* Build configuration list for PBXNativeTarget "GMLAreaCalculate-OCDemoTests" */;
+			buildPhases = (
+				188AB94A24CAD191001BC922 /* Sources */,
+				188AB94B24CAD191001BC922 /* Frameworks */,
+				188AB94C24CAD191001BC922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188AB95024CAD191001BC922 /* PBXTargetDependency */,
+			);
+			name = "GMLAreaCalculate-OCDemoTests";
+			productName = "GMLAreaCalculate-OCDemoTests";
+			productReference = 188AB94E24CAD191001BC922 /* GMLAreaCalculate-OCDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		188AB95824CAD192001BC922 /* GMLAreaCalculate-OCDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188AB96824CAD192001BC922 /* Build configuration list for PBXNativeTarget "GMLAreaCalculate-OCDemoUITests" */;
+			buildPhases = (
+				188AB95524CAD192001BC922 /* Sources */,
+				188AB95624CAD192001BC922 /* Frameworks */,
+				188AB95724CAD192001BC922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188AB95B24CAD192001BC922 /* PBXTargetDependency */,
+			);
+			name = "GMLAreaCalculate-OCDemoUITests";
+			productName = "GMLAreaCalculate-OCDemoUITests";
+			productReference = 188AB95924CAD192001BC922 /* GMLAreaCalculate-OCDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188AB92B24CAD18B001BC922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = GML;
+				TargetAttributes = {
+					188AB93224CAD18B001BC922 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					188AB94D24CAD191001BC922 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 188AB93224CAD18B001BC922;
+					};
+					188AB95824CAD192001BC922 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 188AB93224CAD18B001BC922;
+					};
+				};
+			};
+			buildConfigurationList = 188AB92E24CAD18B001BC922 /* Build configuration list for PBXProject "GMLAreaCalculate-OCDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188AB92A24CAD18B001BC922;
+			productRefGroup = 188AB93424CAD18B001BC922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188AB93224CAD18B001BC922 /* GMLAreaCalculate-OCDemo */,
+				188AB94D24CAD191001BC922 /* GMLAreaCalculate-OCDemoTests */,
+				188AB95824CAD192001BC922 /* GMLAreaCalculate-OCDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188AB93124CAD18B001BC922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188AB94624CAD191001BC922 /* LaunchScreen.storyboard in Resources */,
+				188AB94324CAD191001BC922 /* Assets.xcassets in Resources */,
+				188AB94124CAD18B001BC922 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188AB94C24CAD191001BC922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188AB95724CAD192001BC922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188AB92F24CAD18B001BC922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188AB93E24CAD18B001BC922 /* ViewController.m in Sources */,
+				188AB93824CAD18B001BC922 /* AppDelegate.m in Sources */,
+				188AB94924CAD191001BC922 /* main.m in Sources */,
+				188AB93B24CAD18B001BC922 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188AB94A24CAD191001BC922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188AB95324CAD192001BC922 /* GMLAreaCalculate_OCDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188AB95524CAD192001BC922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188AB95E24CAD192001BC922 /* GMLAreaCalculate_OCDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		188AB95024CAD191001BC922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188AB93224CAD18B001BC922 /* GMLAreaCalculate-OCDemo */;
+			targetProxy = 188AB94F24CAD191001BC922 /* PBXContainerItemProxy */;
+		};
+		188AB95B24CAD192001BC922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188AB93224CAD18B001BC922 /* GMLAreaCalculate-OCDemo */;
+			targetProxy = 188AB95A24CAD192001BC922 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		188AB93F24CAD18B001BC922 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188AB94024CAD18B001BC922 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		188AB94424CAD191001BC922 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188AB94524CAD191001BC922 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188AB96024CAD192001BC922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188AB96124CAD192001BC922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188AB96324CAD192001BC922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = "GMLAreaCalculate-OCDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YM.GMLAreaCalculate-OCDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		188AB96424CAD192001BC922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = "GMLAreaCalculate-OCDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YM.GMLAreaCalculate-OCDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		188AB96624CAD192001BC922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = "GMLAreaCalculate-OCDemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YM.GMLAreaCalculate-OCDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMLAreaCalculate-OCDemo.app/GMLAreaCalculate-OCDemo";
+			};
+			name = Debug;
+		};
+		188AB96724CAD192001BC922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = "GMLAreaCalculate-OCDemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YM.GMLAreaCalculate-OCDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMLAreaCalculate-OCDemo.app/GMLAreaCalculate-OCDemo";
+			};
+			name = Release;
+		};
+		188AB96924CAD192001BC922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = "GMLAreaCalculate-OCDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YM.GMLAreaCalculate-OCDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GMLAreaCalculate-OCDemo";
+			};
+			name = Debug;
+		};
+		188AB96A24CAD192001BC922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29W9687J6A;
+				INFOPLIST_FILE = "GMLAreaCalculate-OCDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YM.GMLAreaCalculate-OCDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GMLAreaCalculate-OCDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188AB92E24CAD18B001BC922 /* Build configuration list for PBXProject "GMLAreaCalculate-OCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188AB96024CAD192001BC922 /* Debug */,
+				188AB96124CAD192001BC922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188AB96224CAD192001BC922 /* Build configuration list for PBXNativeTarget "GMLAreaCalculate-OCDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188AB96324CAD192001BC922 /* Debug */,
+				188AB96424CAD192001BC922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188AB96524CAD192001BC922 /* Build configuration list for PBXNativeTarget "GMLAreaCalculate-OCDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188AB96624CAD192001BC922 /* Debug */,
+				188AB96724CAD192001BC922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188AB96824CAD192001BC922 /* Build configuration list for PBXNativeTarget "GMLAreaCalculate-OCDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188AB96924CAD192001BC922 /* Debug */,
+				188AB96A24CAD192001BC922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188AB92B24CAD18B001BC922 /* Project object */;
+}

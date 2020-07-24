@@ -11,9 +11,9 @@
 
 #import "GMLFloat.h"
 
-/** 计算 { maxWith - (left + right), maxHeight - (top + bottom) } */
-UIKIT_STATIC_INLINE CGSize GMLSizeLessInset(CGSize size, UIEdgeInsets inset) {
-    return CGSizeMake(GMLHorizontalValue(size.width, inset), GMLVerticalValue(size.height, inset));
+/** 计算 {left, top, width - (left + right), height - (top + bottom) } */
+UIKIT_STATIC_INLINE CGRect GMLSizeLessInset(CGSize size, UIEdgeInsets inset) {
+    return CGRectMake(inset.left, inset.top, GMLHorizontalValue(size.width, inset), GMLVerticalValue(size.height, inset));
 }
 /** 计算 { left + width + right, top + height + bottom } */
 UIKIT_STATIC_INLINE CGSize GMLSizeAddInset(CGSize size, UIEdgeInsets inset) {

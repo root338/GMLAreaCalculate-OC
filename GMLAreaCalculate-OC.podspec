@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "GMLAreaCalculate-OC"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "对CoreGraphics的计算和转换"
 
   # This description is used to generate tags and improve search results.
